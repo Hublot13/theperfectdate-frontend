@@ -1,0 +1,91 @@
+.card-container {
+  display: block;
+  overflow: hidden;
+  position: absolute;
+  inset: 0px;
+  box-sizing: border-box;
+  margin: 0px;
+  text-decoration: none;
+}
+
+.card-container:visited {
+  text-decoration: none;
+}
+
+.card-img {
+  position: absolute;
+  inset: 0px;
+  box-sizing: border-box;
+  padding: 0px;
+  border: none;
+  margin: auto;
+  display: block;
+  width: 0px;
+  height: 0px;
+  min-width: 100%;
+  max-width: 100%;
+  min-height: 100%;
+  max-height: 100%;
+  object-fit: cover;
+}
+
+._rating-with-thumbs-up-component {
+  transform: scale(1);
+}
+.list-items {
+  flex: 1 1 auto;
+  position: relative;
+  width: 419px;
+}
+
+.list-container {
+  transition: none 0s ease 0s;
+  overflow: unset;
+  transform: translate3d(0px, 0px, 0px);
+}
+
+.sq-img-in {
+  display: block;
+  overflow: hidden;
+  position: absolute;
+  inset: 0px;
+  box-sizing: border-box;
+  margin: 0px;
+}
+
+h2 {
+  font-weight: bold;
+  color: #639;
+}
+
+.carousel-cont {
+  margin: 0 2.5rem;
+  margin-top: 2rem;
+  padding: 1rem;
+  background-color: white;
+}
+.crousel-body {
+  padding-left: 5px;
+}
+a {
+  text-decoration: none;
+}
+a:visited {
+  text-decoration: none;
+}
+
+.slide-card-container {
+  text-decoration: none;
+}
+.slide-card-container:visited {
+  text-decoration: none;
+}
+
+@media screen and (max-width: 576px) {
+  .carousel-cont {
+    margin: 2rem 1rem;
+  }
+  .slide-card-container {
+    padding: 5px 0 !important;
+  }
+}

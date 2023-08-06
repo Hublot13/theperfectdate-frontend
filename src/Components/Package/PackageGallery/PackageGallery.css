@@ -1,0 +1,53 @@
+.gallery-card {
+    background-color: #fff !important;
+    border-bottom: 1px solid #e9ecf3 !important;
+    padding: 5px !important;
+    box-shadow: 0 1px 8px rgba(0,0,0,.18) !important;
+}
+
+.gallery-container {
+    width: 40%;
+    height: max-content;
+}
+
+.swiper-gallery {
+    width: 100% !important;
+    margin-top: 0 !important;
+    box-shadow: none !important;
+}
+
+.mySwiper2-up {
+    height: 60vh !important;
+}
+.swiper-gallery img {
+    width: 100% !important;
+    height: inherit;
+}
+
+.mySwiper-down {
+    height: 8vh !important;
+    padding: 10px 0;
+    width: 90% !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+}
+
+.mySwiper-down img {
+    cursor: pointer;
+}
+
+
+/* media query */
+
+@media only screen and (max-width: 768px) {
+    .gallery-container {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    
+}
+
+

@@ -1,0 +1,86 @@
+.card {
+    scroll-margin-top: 75px;
+    background-color: #fff;
+    border-bottom: 1px solid #e9ecf3;
+    margin-bottom: 40px;
+    padding: 20px;
+    width: initial;
+    box-shadow: 0 1px 8px rgba(0,0,0,.18);
+}
+
+.price {
+    border-bottom: 1px solid #e7eff9;
+    margin-bottom: 20px;
+}
+
+.booking-activeinput {
+    box-shadow: 0 0 5px #e04f67;
+    border: 1px solid #e04f67!important;
+}
+
+._experience-page-booking-column-date-box {
+    text-align: left;
+    display: inline-flex;
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    width: 100%;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    border: 1px solid rgba(50,50,50,.1);
+    height: 40px;
+}
+
+.margin-conatiner {
+    margin-bottom: 20px;
+}
+
+.input-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.booking-input-field {
+    border: none;
+    width: 100%;
+    outline: none;
+    margin: 0 10px;
+    height: initial;
+}
+
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    margin: 0; 
+}
+
+.btn_full {
+    border: none;
+    font-family: inherit;
+    font-size: inherit;
+    color: #fff;
+    background: #662d91;
+    padding: 12px 20px;
+    display: inline-block;
+    outline: none;
+    font-size: 12px;
+    transition: all .3s;
+    border-radius: 3px;
+    text-transform: uppercase;
+    margin-top: 15px;
+    font-weight: 700;
+    display: block;
+    width: 100%;
+    cursor: pointer;
+}
+
+.btn_full:hover {
+    background: #e04f67;
+    color: #fff!important;
+}
+
+

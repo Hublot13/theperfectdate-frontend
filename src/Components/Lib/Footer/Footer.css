@@ -1,0 +1,124 @@
+a {
+  text-decoration: none;
+}
+footer {
+  background: #333
+    url(https://deowgxgt4vwfe.cloudfront.net/website_static/img/pattern.png)
+    repeat 0 0;
+  color: #fff;
+  width: 100%;
+  /* color: #333; */
+  bottom: 0;
+}
+
+.footer-row {
+  display: flex;
+  padding: 1rem;
+}
+
+.footer-column {
+  width: calc(100% / 3);
+  padding: 0 0.9375rem;
+}
+
+h4 {
+  margin-bottom: 0.9375rem;
+  font-size: 1.5rem;
+}
+
+p {
+  font-size: 1rem;
+  line-height: 1.3rem;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+ul li {
+  margin-bottom: 0.625rem;
+}
+
+ul li a {
+  color: #fff;
+  font-size: 1rem;
+}
+
+ul.social-icons {
+  display: flex;
+  column-gap: 0.625rem;
+}
+
+.social-icons > li > a {
+  font-size: 2rem;
+  color: #fff;
+}
+
+ul.social-icons li {
+  margin-bottom: 0rem;
+}
+
+ul.social-icons li a {
+  display: grid;
+  place-content: center;
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 100%;
+  /* background-color: #fff; */
+}
+
+.insta:hover {
+  color: #bc1888;
+}
+.facebook:hover {
+  color: rgb(66, 103, 178);
+}
+
+.twitter:hover {
+  color: #1da1f2;
+}
+
+.whatsapp:hover {
+  color: #25d366;
+}
+
+.copyright {
+  text-align: center;
+  color: #fff;
+  /* background-color: #6faaff; */
+  padding: 0.6rem 0;
+}
+
+/* Responsive adjustments */
+
+@media screen and (max-width: 768px) {
+  .footer-column {
+    margin: 0.4rem 0;
+    width: 100%;
+    padding: 0;
+  }
+
+  .footer-row {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  h4 {
+    font-size: 1.3125rem;
+  }
+
+  p {
+    font-size: 0.9375rem;
+  }
+
+  ul li a {
+    font-size: 0.9375rem;
+  }
+
+  ul.social-icons li a {
+    width: 1.875rem;
+    height: 1.875rem;
+  }
+}

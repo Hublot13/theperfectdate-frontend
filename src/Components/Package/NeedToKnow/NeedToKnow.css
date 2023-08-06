@@ -1,0 +1,12 @@
+.need-to-know-content {
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.need-to-know-content img {
+    width: 10px;
+}
+
+

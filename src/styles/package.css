@@ -1,0 +1,27 @@
+body {
+    background: #f7f9fc;
+    overflow-x: hidden;
+}
+
+.product-container {
+    margin: 20px 5rem 0 5rem;
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+}
+
+
+/* media querry */
+
+@media only screen and (max-width: 1200px) {
+    .product-container {
+        gap: 1rem;
+        margin: 20px 2rem 0 2rem;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .product-container {
+        flex-direction: column;
+    }
+}

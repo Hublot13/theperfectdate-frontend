@@ -1,0 +1,14 @@
+.card {
+    scroll-margin-top: 75px;
+    background-color: #fff;
+    border-bottom: 1px solid #e9ecf3;
+    margin-bottom: 40px;
+    padding: 20px;
+    width: initial;
+    box-shadow: 0 1px 8px rgba(0,0,0,.18);
+}
+
+.about-package-head {
+    border-bottom: 1px solid #e7eff9;
+    margin-bottom: 20px;
+}
